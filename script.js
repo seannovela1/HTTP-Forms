@@ -51,3 +51,11 @@ function savePreferences(event) {  // Prevent the form from submitting the tradi
 
   // Display a message to inform the user that their preferences have been saved
   const savedMessage = document.getElementById('savedMessage');
+  savedMessage.style.display = 'block';
+  setTimeout(() => {
+      savedMessage.style.display = 'none';
+  }, 2000);  // Hide the message after 2 seconds
+}
+
+
+  
