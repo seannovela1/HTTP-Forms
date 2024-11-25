@@ -47,4 +47,7 @@ function savePreferences(event) {  // Prevent the form from submitting the tradi
  localStorage.setItem('userName', 'name');
  localStorage.setItem('bgColor', bgColor);
  localStorage.setItem('fgColor', fgColor);
- 
+
+
+  // Display a message to inform the user that their preferences have been saved
+  const savedMessage = document.getElementById('savedMessage');
