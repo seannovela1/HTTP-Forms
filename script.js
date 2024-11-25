@@ -56,6 +56,7 @@ function savePreferences(event) {  // Prevent the form from submitting the tradi
       savedMessage.style.display = 'none';
   }, 2000);  // Hide the message after 2 seconds
 }
-
-
+ // Apply preferences immediately after saving
+  applyPreferences();
+  
   
