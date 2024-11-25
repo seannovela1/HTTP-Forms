@@ -9,3 +9,9 @@
 // also want to call this function again when the user saves their preferences to
 // immediately apply them. Make sure you also notify the user somehow that the preferences
 // were saved.
+
+
+
+// Function to apply the preferences saved in localStorage
+function applyPreferences() {
+    // Get the user's name, background color, and foreground color from localStorage
