@@ -18,4 +18,7 @@ function applyPreferences() {
     const userName = localStorage.getItem('userName');
   const bgColor = localStorage.getItem('bgColor');
   const fgColor = localStorage.getItem('fgColor');
-  
+
+  // If the user has set a name, update the greeting
+  if (userName) {
+    // Set the text content of the element with id 'greeting' to show a personalized greeting
