@@ -33,3 +33,6 @@ function applyPreferences() {
     document.body.style.color = fgColor;
   }
 } 
+
+// Function to save the preferences from the form
+function savePreferences(event) { 
