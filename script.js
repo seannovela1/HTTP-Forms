@@ -22,3 +22,5 @@ function applyPreferences() {
   // If the user has set a name, update the greeting
   if (userName) {
     // Set the text content of the element with id 'greeting' to show a personalized greeting
+    document.getElementById('greeting').textContent = `Hello, ${userName}! Welcome back!`;
+}
