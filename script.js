@@ -24,3 +24,7 @@ function applyPreferences() {
     // Set the text content of the element with id 'greeting' to show a personalized greeting
     document.getElementById('greeting').textContent = `Hello, ${userName}! Welcome back!`;
 }
+
+
+  // If both background and foreground colors are set, apply them to the page
+  if (bgColor && fgColor) {
