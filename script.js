@@ -35,4 +35,11 @@ function applyPreferences() {
 } 
 
 // Function to save the preferences from the form
-function savePreferences(event) { 
+function savePreferences(event) {  // Prevent the form from submitting the traditional way and reloading the page
+    event.preventDefault(); 
+     // Get the values from the form elements for name and colors
+  const userName = document.getElementById('name').value;
+  const bgColor = document.getElementById('bgColor').value;
+  const fgColor = document.getElementById('fgColor').value;
+
+  
