@@ -61,3 +61,7 @@ function savePreferences(event) {  // Prevent the form from submitting the tradi
 
   // Set up the event listener on the form submission
 document.getElementById('preferencesForm').addEventListener('submit', savePreferences);
+
+
+// Apply preferences on page load
+applyPreferences();
