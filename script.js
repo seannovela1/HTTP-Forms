@@ -42,4 +42,9 @@ function savePreferences(event) {  // Prevent the form from submitting the tradi
   const bgColor = document.getElementById('bgColor').value;
   const fgColor = document.getElementById('fgColor').value;
 
-  
+
+ // Save preferences to localStorage
+ localStorage.setItem('userName', 'name');
+ localStorage.setItem('bgColor', bgColor);
+ localStorage.setItem('fgColor', fgColor);
+ 
