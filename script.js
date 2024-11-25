@@ -27,4 +27,9 @@ function applyPreferences() {
 
 
   // If both background and foreground colors are set, apply them to the page
-  if (bgColor && fgColor) {
+  if (bgColor && fgColor) {  // Apply the background color to the body
+    document.body.style.backgroundColor = bgColor;
+    // Apply the foreground (text) color to the body
+    document.body.style.color = fgColor;
+  }
+} 
