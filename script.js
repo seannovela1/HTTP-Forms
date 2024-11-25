@@ -15,3 +15,7 @@
 // Function to apply the preferences saved in localStorage
 function applyPreferences() {
     // Get the user's name, background color, and foreground color from localStorage
+    const userName = localStorage.getItem('userName');
+  const bgColor = localStorage.getItem('bgColor');
+  const fgColor = localStorage.getItem('fgColor');
+  
